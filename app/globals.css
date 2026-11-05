@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 40px 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  max-width: 640px;
+  width: 100%;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  display: block;
+}
