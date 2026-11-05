@@ -19,6 +19,22 @@ body {
 video {
   max-width: 100%;
   height: auto;
-  margin: 20px 0;
+  margin: 15px 0;
   display: block;
+}
+
+.sound-btn {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background-color: #f0f0f0;
+}
+
+.sound-btn:hover {
+  background-color: #e0e0e0;
 }
